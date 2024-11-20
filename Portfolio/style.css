@@ -26,6 +26,12 @@
     height: 300px;
     margin: auto;
     border-radius: 50%;
+    box-shadow: 
+    0 0 10vw 0vw pink,
+    0 0 2vw 0.4vw rgb(241, 209, 214),
+    inset 0 0 .5vw 0.2vw pink,
+    inset 0 0 0.2vw 0.2vw rgb(211, 173, 179),
+    inset 0 0 .25vw 0.2vw pink;
     position: relative;
     overflow: hidden;
 }
@@ -59,6 +65,12 @@
     background-color: transparent ;
     animation: animation_bouton 4s infinite;
     transition: 0.4s ease-in;
+    box-shadow: 
+    0 0 10vw 0vw pink,
+    0 0 2vw 0.4vw rgb(241, 9, 48),
+    inset 0 0 .5vw 0.2vw pink,
+    inset 0 0 0.2vw 0.2vw rgb(241, 9, 48),
+    inset 0 0 .25vw 0.2vw pink;
 }
 
 .reseaux{
