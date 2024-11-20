@@ -58,6 +58,7 @@
     color: rgb(30, 6, 6);
     background-color: transparent ;
     animation: animation_bouton 4s infinite;
+    transition: 0.4s ease-in;
 }
 
 .reseaux{
@@ -66,4 +67,8 @@
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+
+.bouton:hover{
+        transform: scale(1.2);
 }
