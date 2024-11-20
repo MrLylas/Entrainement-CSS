@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;}
+
+.circle{
+    position: absolute;
+    left: -200px;
+    top: 480px;
+    width: 200px;height: 200px;
+    border-radius: 50%;
+}
+
+.soleil{
+        background-color: rgb(255,226,110);
+        animation: sun_animation 10s linear;
+}
+.lune{
+        background-color: whitesmoke;
+        animation: moon_animation 10s linear 9s;
+}
+
+.ciel{
+        background-color: #ff4d00;
+        height: 60vh;
+        animation: sky_animation 20s linear ;
+}
+
+.plage{
+    height: 40vh;
+    position: absolute;
+    width: 100%;
+    background-color:#ff9900 ;
+    animation: sand_animation 20s linear ;
+}
+
+@keyframes sun_animation{
+    0%{transform: translate(0px,0px);background-color: rgb(210,0,0);}
+    25%{transform: translate(430px,-250px);background-color:rgb(255,172,66) ;}
+    50%{transform: translate(1060px,-450px);background-color: rgb(255,247,175);}
+    75%{transform: translate(1690px,-250px);background-color:rgb(255,172,66) ;}
+    100%{transform: translate(2120px,0px);background-color:rgb(210,0,0) ;}
+}
+
+@keyframes moon_animation{
+    0%{transform: translate(0px,0px);}
+    25%{transform: translate(430px,-250px);}
+    50%{transform: translate(1060px,-450px);}
+    75%{transform: translate(1690px,-250px);}
+    100%{transform: translate(2120px,0px);}
+}
+
+@keyframes sky_animation{
+    0%{background-color:#ff4d00}
+    20%{background-color:#5b98c3}
+    35%{background-color:#7ec0ee}
+    40%{background-color:#f66f65}
+    52%{background-color:#1b1e23}
+    90%{background-color:#232529}
+    100%{background-color:#ff4d00}
+}
+
+@keyframes sand_animation{
+    0%{background-color:#ff9900}
+    20%{background-color:rgb(221, 181, 125)}
+    35%{background-color:rgb(225,196,156)}
+    40%{background-color:#f6a665}
+    52%{background-color:#4e3500}
+    90%{background-color:#302100}
+    100%{background-color:#ff9900}
+}
