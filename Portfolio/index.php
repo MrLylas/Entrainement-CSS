@@ -10,7 +10,7 @@
 <body>
     <div class="background">
         <div class="profile">
-            <img src="avatar.jpg" alt="huey freeman">
+            <button class='profile'><img src="avatar.jpg" alt="huey freeman"></button>
         </div>
         <div class="reseaux">
             <button class='bouton'><i class="fa-brands fa-github"></i></button>

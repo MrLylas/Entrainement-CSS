@@ -26,6 +26,10 @@
     height: 300px;
     margin: auto;
     border-radius: 50%;
+    background-color: transparent ;
+    outline: none;
+    animation: animation_bouton 4s infinite;
+    cursor: pointer;
     box-shadow: 
     0 0 10vw 0vw pink,
     0 0 2vw 0.4vw rgb(241, 209, 214),
@@ -61,6 +65,8 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    outline: none;
+    cursor: pointer;
     color: rgb(30, 6, 6);
     background-color: transparent ;
     animation: animation_bouton 4s infinite;
